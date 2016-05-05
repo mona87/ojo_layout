@@ -179,14 +179,14 @@ h1{
 @media  (min-width: 768px) and (max-width: 992px){
 
 	.head-icon{
-		background-image: url('../images/tablet/Tablet_head_icon_@2x.png');
+		background-image: url('../images/Tablet/Tablet_head_icon_@2x.png');
 	}
 
 	.message-icon{
-		background-image: url('../images/tablet/Tablet_message_icon_@2x.png');
+		background-image: url('../images/Tablet/Tablet_message_icon_@2x.png');
 	}
 	.header-logo{
-		background-image: url('../images/tablet/Tablet_ojolabs_logo_@2x.png');
+		background-image: url('../images/Tablet/Tablet_ojolabs_logo_@2x.png');
 	}
 
 
