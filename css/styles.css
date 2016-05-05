@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'Sophia';
+  font-weight: normal;
+ /* src: url('../fonts/klavika/Klavika-Regular.otf'); */
+  src: url('../fonts/sofia-pro-soft-regular-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/sofia-pro-soft-regular-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/sofia-pro-soft-regular-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/sofia-pro-soft-regular-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/sofia-pro-soft-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/sofia-pro-soft-regular-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+body{
+	font-family: 'Sophia';
+	background-color: rgba(11,31,45,1);
+	background-image: url('../images/Desktop/desktop_facepattern_@2x.png');
+	background-size: contain;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.overlay{
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	top: 0;
+	left:0;
+	background: rgba(11,31,45,1);
+	background: -moz-linear-gradient(top, rgba(11,31,45,1) 16%, rgba(11,31,45,0.53) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(16%, rgba(11,31,45,1)), color-stop(100%, rgba(11,31,45,0.53)));
+	background: -webkit-linear-gradient(top, rgba(11,31,45,1) 16%, rgba(11,31,45,0.53) 100%);
+	background: -o-linear-gradient(top, rgba(11,31,45,1) 16%, rgba(11,31,45,0.53) 100%);
+	background: -ms-linear-gradient(top, rgba(11,31,45,1) 16%, rgba(11,31,45,0.53) 100%);
+	background: linear-gradient(to bottom, rgba(11,31,45,1) 16%, rgba(11,31,45,0.53) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b1f2d', endColorstr='#0b1f2d', GradientType=0 );
+
+
+
+}
+
+.container-fluid{	
+	height: 100%;
+	min-height: 100%;
+	padding-bottom: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
+	box-sizing: border-box;
+
+}
+
+.header-logo{
+	background-image: url('../images/Desktop/desktop_ojolabs_logo_@2x.png');
+	width: 200px;
+	height: 75px;
+	margin: auto;
+	background-size: contain;
+	margin-top: 50px;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+}
+
+
+
+
+
+h1{
+	color: #DF4D5B;
+	font-weight: normal;
+	text-align: center;
+}
+
+.section-one-text{
+	color: white;
+	margin: auto;
+	max-width: 650px;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 22px;
+}
+
+.head-icon{
+	background-image: url('../images/Desktop/desktop_headicon_@2x.png');
+	background-repeat: no-repeat;	
+    width: 150px; 
+	height: 150px;
+	background-size: contain;
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+.section-two-text{
+	color: white;
+	margin: auto;
+	max-width: 300px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	text-align: center;
+	font-size: 20px;
+}
+
+.message-icon{
+	background: url('../images/Desktop/desktop_message_icon_@2x.png');
+	background-repeat: no-repeat;
+    width: 150px; 
+	height: 150px;
+	background-size: contain;
+	margin: auto;
+	margin-top: 50px;
+
+
+}
+
+.section-three-text{
+	color: white;
+	margin: auto;
+	max-width: 300px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+
+.section-four-text{
+	color: white;
+	margin: auto;
+	max-width: 400px;
+	padding-top: 20px;
+	box-sizing: border-box;
+	font-size: 20px;
+	text-align: center;
+}
+
+.title-two{
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+.footer{
+	background-color: #031623;
+	height: 75px;
+	position: static;
+	bottom: 0;
+
+}
+
+.contact-link a, a:visited, a:active {
+	color: white;
+	font-size: 22px;
+}
+
+.contact-link{
+	margin: auto;
+	max-width: 200px;
+	text-align: center;
+	padding-top: 23px;
+	box-sizing: border-box;
+
+}
+
+/*for desktop*/
+@media (min-width: 1200px) {
+  .container-fluid {
+    width: 1000px;
+  }
+}
+
+/*for tablet*/
+@media  (min-width: 768px) and (max-width: 992px){
+
+	.head-icon{
+		background-image: url('../images/tablet/Tablet_head_icon_@2x.png');
+	}
+
+	.message-icon{
+		background-image: url('../images/tablet/Tablet_message_icon_@2x.png');
+	}
+	.header-logo{
+		background-image: url('../images/tablet/Tablet_ojolabs_logo_@2x.png');
+	}
+
+	body{
+		/*background-image: url('../images/tablet/tablet_facepattern_@2x.png');*/
+	}
+
+
+}
+
+/*for mobile*/
+@media (max-width: 768px) {
+	h1{
+		font-size: 27px;
+	}
+	p{
+		font-size: 20px;
+	}
+	.head-icon{
+		background-image: url('../images/Mobile/mobile_head_icon_@2x.png');
+	}
+
+	.message-icon{
+		background-image: url('../images/Mobile/mobile_message_icon_@2x.png');
+	}
+	.header-logo{
+		background-image: url('../images/Mobile/mobile_ojolabs_logo_@2x.png');
+	}
+
+	body{
+		background-image: url('../images/Mobile/mobile_face_pattern_@2x.png');
+	}
+
+
+}
+
+
+
+
+
