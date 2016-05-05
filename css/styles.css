@@ -182,6 +182,9 @@ h1{
 	.header-logo{
 		background-image: url('../images/tablet/Tablet_ojolabs_logo_@2x.png');
 	}
+	.footer{
+		position: absolute;
+	}
 
 	body{
 		/*background-image: url('../images/tablet/tablet_facepattern_@2x.png');*/
